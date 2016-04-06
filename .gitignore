@@ -44,3 +44,5 @@ docs
 lib
 test
 tmp
+
+/nbproject/private/
