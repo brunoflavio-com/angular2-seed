@@ -45,4 +45,8 @@ lib
 test
 tmp
 
+#css files are generated from scss
+/src/**/*.css
+
+#netbeans
 /nbproject/private/
