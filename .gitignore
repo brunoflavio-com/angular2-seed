@@ -37,6 +37,7 @@ build/Release
 
 /tools/**/*.js
 gulpfile.js
+
 dist
 dev
 docs
