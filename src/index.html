@@ -7,6 +7,7 @@
   <title><%= APP_TITLE %></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- inject:css -->
   <!-- endinject -->
 </head>
@@ -40,6 +41,7 @@
   <!-- shims:js -->
   <!-- endinject -->
 
+  <script src="node_modules/ng2-bootstrap/bundles/ng2-bootstrap.min.js"></script>
   <% if (ENV === 'dev') { %>
   <script>
     System.config(<%=
