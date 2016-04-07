@@ -37,9 +37,16 @@ build/Release
 
 /tools/**/*.js
 gulpfile.js
+
 dist
 dev
 docs
 lib
 test
 tmp
+
+#css files are generated from scss
+/src/**/*.css
+
+#netbeans
+/nbproject/private/

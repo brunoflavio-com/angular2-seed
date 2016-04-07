@@ -19,6 +19,7 @@ export = () => {
       join(APP_SRC, '**'),
       '!' + join(APP_SRC, '**', '*.ts'),
       '!' + join(APP_SRC, '**', '*.css'),
+      '!' + join(APP_SRC, '**', '*.scss'),
       '!' + join(APP_SRC, '**', '*.html'),
       '!' + join(ASSETS_SRC, '**', '*.js')
     ])
